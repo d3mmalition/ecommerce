@@ -23,7 +23,7 @@ secondary: {
     800: "#665600",
     900: "#332b00"
 },
-background: {
+custom: {
           100: "#dee6d5",
           200: "#becdac",
           300: "#9db582",
@@ -44,7 +44,6 @@ export const theme = createTheme({
         secondary: {
             main: shades.secondary[500]
         },
-        
     },
 typography: {
     fontFamily: ["Fauna One", "sans-serif"].join(","),
@@ -52,6 +51,18 @@ typography: {
     h1: {
         fontFamily: ["Cinzel", "sans-serif"].join(","),
         fontSize: 48,
+    },
+    h2: {
+        fontFamily: ["Cinzel", "sans-serif"].join(","),
+        fontSize: 36,
+    },
+    h3: {
+        fontFamily: ["Cinzel", "sans-serif"].join(","),
+        fontSize: 20,
+    },
+    h4: {
+        fontFamily: ["Cinzel", "sans-serif"].join(","),
+        fontSize: 14,
     }
 
 }
